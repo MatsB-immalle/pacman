@@ -6,7 +6,7 @@ class Pacman
 
  float x = 25;
  float y = 25;
- 
+
  void teken()
  {
   translate(x,y);
@@ -43,5 +43,5 @@ class Pacman
         
        arc(0, 0, 50, 50, 0+hoek, TWO_PI-hoek);
   }   
- }
+ } 
 }
